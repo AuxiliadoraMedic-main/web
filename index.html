@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auxiliadora Medica</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <!-- Menu de navegación -->
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img height="50" width="50" src="img/logo.jpg" alt="Logo Auxiliadora Medic" />
+                <div class="logotype">
+                    <p><span class="logo-primary">AUXILIADORA </span> MEDIC</p>
+                </div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+                <img src="img/hamburger-icon.svg" alt="Abrir menú" />
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                <img src="img/close-icon.svg" alt="Cerrar menú" />
+                </button>
+                <li><a href="#" class="active">INICIO</a></li>
+                <li><a href="nosotros.html">NOSOTROS</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="especialidades.html">ESPECIALIDADES</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <li><a href="#" class="btn">RESULTADOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Slider -->
+        <section class="slider">
+            <div class="slide current">
+                <img src="img/slider/lab_clinic.jpg" alt="Slide 1">
+                <div class="slider-text">
+                    <h2>Laboratorio Clínico</h2>
+                    <p>Su objetivo principal es detectar y prevenir enfermedades relacionadas con el entorno laboral, monitorear la salud ocupacional, y asegurar el cumplimiento de las normativas de seguridad y salud laboral.</p>
+                    <a href="servicios.html" class="slider-btn">Ver Servicios</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/slider/ray_x.jpg" alt="Slide 2">
+                <div class="slider-text">
+                    <h2>Rayos X</h2>
+                    <p>Este examen es crucial para detectar fracturas, anomalías óseas y otras condiciones internas, asegurando una evaluación completa de la salud de los trabajadores. Promovemos la seguridad y el bienestar laboral con tecnología avanzada y resultados confiables.</p>
+                    <a href="servicios.html" class="slider-btn">Ver Servicios</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/slider/electrocardiograma.jpg" alt="Slide 3">
+                <div class="slider-text">
+                    <h2>Electrocardiograma</h2>
+                    <p>Esta prueba es fundamental para detectar irregularidades en el ritmo cardíaco, posibles afecciones cardíacas y evaluar la aptitud física de los empleados para desempeñar sus funciones laborales.</p>
+                    <a href="servicios.html" class="slider-btn">Ver Servicios</a>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <span class="prev">&#10094;</span>
+                <span class="next">&#10095;</span>
+            </div>
+        </section>
+
+        <!-- Características Principales -->
+        <section class="features">
+            <div class="feature">
+                <span class="material-symbols-outlined">pacemaker</span>
+                <h3>Atención Personalizada</h3>
+                <p>Nuestro equipo ofrece una atención personalizada y de calidad.</p>
+            </div>
+            <div class="feature">
+                <span class="material-symbols-outlined">health_and_safety</span>
+                <h3>Instalaciones Modernas</h3>
+                <p>Contamos con instalaciones modernas y equipamiento de última tecnología.</p>
+            </div>
+            <div class="feature">
+                <span class="material-symbols-outlined">medical_information</span>
+                <h3>Profesionales Calificados</h3>
+                <p>Tenemos un equipo de profesionales altamente calificados.</p>
+            </div>
+        </section>
+
+        <!-- Acerca de -->
+        <section class="about">
+            <div class="text">
+                <h2>Acerca de Nosotros</h2>
+                <br>
+                <p>Somos una clínica especializada en salud ocupacional dedicada a promover la seguridad y salud ocupacional preventiva, brindando los servicios y asesorías integrales en salud ocupacional, seguridad e higiene industrial de la más alta calidad, adaptándonos a la necesidad de tu empresa.</p>
+                <br>
+                <p>Creando protocolos de acuerdo al perfil del riesgo, contribuyendo de esta manera a la mejora de la calidad de vida de los colaboradores de nuestros clientes, con profesionales calificados y motivados a través del constante desarrollo profesional y humano.</p>
+            </div>
+            <div class="image">
+                <img src="img/about.jpg" alt="" srcset="">
+            </div>
+        </section>
+
+        <!-- Principales Servicios -->
+        <h2 class="service-title">Principales Servicios</h2>
+        <section class="services">
+            <div class="card">
+                <div class="face front">
+                    <img src="img/LaboratorioClinico.jpg" alt="laboratorio" class="imgservicio">
+                    <h3>Laboratorio Clínico</h3>
+                </div>
+                <div class="face back">
+                    <h3>Laboratorio Clínico</h3>
+                    <p>Su objetivo principal es detectar y prevenir enfermedades relacionadas con el entorno laboral, monitorear la salud ocupacional, y asegurar el cumplimiento de las normativas de seguridad y salud laboral.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face front">
+                    <img src="img/Electrocardiograma.jpg" alt="laboratorio" class="imgservicio">
+                    <h3>Electrocardiograma</h3>
+                </div>
+                <div class="face back">
+                    <h3>Electrocardiograma</h3>
+                    <p>Esta prueba es fundamental para detectar irregularidades en el ritmo cardíaco, posibles afecciones cardíacas y evaluar la aptitud física de los empleados para desempeñar sus funciones laborales.</p>     
+                </div>
+            </div>
+            <div class="card">
+                <div class="face front">
+                    <img src="img/ExamenVisual.jpg" alt="laboratorio" class="imgservicio">
+                    <h3>Examen Visual</h3>
+                </div>
+                <div class="face back">
+                    <h3>Examen Visual</h3>
+                    <p>Este examen es fundamental para detectar problemas de visión, asegurar que los empleados puedan desempeñar sus tareas de manera segura y eficiente, y promover un entorno laboral saludable y seguro.</p>  
+                </div>
+            </div>
+            <div class="card">
+                <div class="face front">
+                    <img src="img/RayosX.jpg" alt="Rayos X" class="imgservicio">
+                    <h3>Rayos X</h3>
+                </div>
+                <div class="face back">
+                    <h3>Rayos X</h3>
+                    <p>Este examen es crucial para detectar fracturas, anomalías óseas y otras condiciones internas, asegurando una evaluación completa de la salud de los trabajadores. Promovemos la seguridad y el bienestar laboral con tecnología avanzada y resultados confiables.</p> 
+                </div>
+            </div>
+        </section>
+        
+        <!-- Mapa de ubicación -->
+        <section class="map-section">
+            <h2>Encuéntranos Aquí</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.86713544271515!2d-75.23196688285945!3d-12.05217783599261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910ebd9e6d1b40a1%3A0xff69e92dd029ff03!2sCLINICA%20AUXILIADORA%20(SALUD%20OCUPACIONAL)!5e0!3m2!1ses-419!2spe!4v1719682358764!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <img src="img/logo.jpg" alt="Logo Auxiliadora Medica" class="footer-logo">
+                <p class="footer-description">
+                    "Cuidando tu salud, mejorando tu trabajo"
+                </p>
+                <div class="footer-socials">
+                    <a href="#" target="_blank"><img src="img/icons/facebook-176-svgrepo-com.svg" alt="Facebook"></a>
+                    <a href="#" target="_blank"><img src="img/icons/instagram-svgrepo-com.svg" alt="Twitter"></a>
+                    <a href="#" target="_blank"><img src="img/icons/youtube-svgrepo-com.svg" alt="Youtube"></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces de Preferencia</h3>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="especialidades.html">Especialidades</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">Resultados</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Datos de Contacto</h3>
+                <span>Dirección:<p> Jr. 2 de Agosto 220 El Tambo - Huancayo - Junin</p></span>
+                <span>Teléfono:<p>(+51) 998881683 - 964623132</p></span>
+                <span>Email
+                    <p>ventas@clinicaauxiliadoramedic.com</p>
+                    <p>informes@clinicaauxiliadoramedic.com</p>
+                </span>
+                
+            </div>
+        </div>    
+    </footer>
+    <p class="copyright">&copy; 2024 Auxiliadora Medic. Todos los derechos reservados.</p>
+	
+</body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Flotante</title>
+    <style>
+        /* Estilo para el contenedor del chatbot */
+        #chat-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 300px;
+            height: 400px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Estilo para la ventana del chat */
+        #chat-box {
+            flex: 1;
+            padding: 10px;
+            overflow-y: auto;
+            background-color: #f9f9f9;
+            border-bottom: 1px solid #ccc;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilo para los mensajes */
+        .user-msg, .bot-msg {
+            margin: 10px 0;
+            padding: 8px;
+            border-radius: 5px;
+            max-width: 80%;
+        }
+
+        .user-msg {
+            background-color: #d1e7dd;
+            align-self: flex-end;
+        }
+
+        .bot-msg {
+            background-color: #f8d7da;
+            align-self: flex-start;
+        }
+
+        /* Estilo para el área de entrada de texto */
+        #input-area {
+            display: flex;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+        }
+
+        #input-area input {
+            flex: 1;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        #input-area button {
+            padding: 8px;
+            margin-left: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #input-area button:hover {
+            background-color: #218838;
+        }
+
+        /* Estilo para el botón flotante de abrir el chat */
+        #open-chat-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #open-chat-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Botón para abrir el chat -->
+    <button id="open-chat-btn" onclick="toggleChat()">💬</button>
+
+    <!-- Contenedor del chat -->
+    <div id="chat-container" style="display: none;">
+        <div id="chat-box">
+            <div class="bot-msg">¡Hola! ¿En qué puedo ayudarte?</div>
+        </div>
+        <div id="input-area">
+            <input type="text" id="user-input" placeholder="Escribe tu mensaje..." />
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+
+    <script>
+        // Función para alternar la visibilidad del chat
+        function toggleChat() {
+            var chatContainer = document.getElementById("chat-container");
+            if (chatContainer.style.display === "none") {
+                chatContainer.style.display = "flex";
+            } else {
+                chatContainer.style.display = "none";
+            }
+        }
+
+        // Función para enviar un mensaje
+        function sendMessage() {
+            var userInput = document.getElementById("user-input").value.trim();
+            if (userInput === "") return;
+
+            // Mostrar mensaje del usuario
+            var chatBox = document.getElementById("chat-box");
+            var userMsg = document.createElement("div");
+            userMsg.classList.add("user-msg");
+            userMsg.textContent = userInput;
+            chatBox.appendChild(userMsg);
+
+            // Limpiar el campo de entrada
+            document.getElementById("user-input").value = "";
+
+            // Respuesta del bot
+            var botMsg = document.createElement("div");
+            botMsg.classList.add("bot-msg");
+
+            if (userInput.toLowerCase() === "hola") {
+                botMsg.textContent = "¡Hola! ¿Cómo estás?";
+            } else if (userInput.toLowerCase() === "adiós") {
+                botMsg.textContent = "¡Hasta luego! Que tengas un buen día.";
+            } else {
+                botMsg.textContent = "Lo siento, no entiendo eso.";
+            }
+
+            chatBox.appendChild(botMsg);
+
+            // Desplazar hacia abajo
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+    </script>
+</body>
+</html>
+</html>
